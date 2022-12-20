@@ -109,7 +109,7 @@ fn handle_connection(mut stream: TcpStream, data: &mut HashMap<String, String>) 
 }
 
 fn main() -> io::Result<()> {
-    let listener = TcpListener::bind("127.0.0.1:7878").unwrap();
+    let listener = TcpListener::bind("127.0.0.1:7777").unwrap();
     let mut data = HashMap::new();
 
     for stream in listener.incoming() {

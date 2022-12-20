@@ -15,7 +15,7 @@ use std::net::TcpStream;
 /// }
 
 fn main() -> io::Result<()> {
-    let mut stream: TcpStream = TcpStream::connect("127.0.0.1:7878")?;
+    let mut stream: TcpStream = TcpStream::connect("127.0.0.1:7777")?;
 
     let mut request = String::new();
     io::stdin().read_line(&mut request)?;
