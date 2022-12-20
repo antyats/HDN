@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"fn":[["handle_connection","Handle user connection"],["main",""]],"struct":[["LoadResponse",""],["SuccessOrFailResponse",""]]};
